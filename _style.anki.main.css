@@ -1,0 +1,1380 @@
+/*//////////////////////////////////////////////////////////////////////////////////
+Written by aPaci95 (anki.italy@gmail.com)
+You can find me on reddit r/anki; i'm u/aPaci95
+
+Se sei italiano ti invito a fare un salto sul subreddit r/ankitaly https://www.reddit.com/r/Ankitaly/
+
+You are free to edit and adapt this note type for your purposes, as long as it remains free
+/////////////////////////////////////////////////////////////////////////////////*/
+/* use @import url("_style.anki.main.css"); to add this CSS to your notes*/
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+.card {
+ font-family: arial;
+ font-size: 130%;
+ text-align: left;
+ color: black;
+}
+
+
+
+
+
+/* CLOZE NOTE TYPE /////////////////////////////////////////////////////////////////*/
+
+.cloze {
+ font-weight: 600;
+ color: #cf6b7e;
+ background-color: #36454f;
+}
+
+
+
+
+
+/* MEDICAL NOTES TYPE //////////////////////////////////////////////////////////////*/
+
+.upperMAINbg {
+ background-color: #797DA0;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #d5d6e1;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+.mobile .upperMAINbg {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+.upperMAINbg1 {
+ background-color: #797DA0;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #d5d6e1;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+
+.mobile .upperMAINbg1 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+.upperMAINbg2 {
+ background-color: #585a6d;
+ padding: 3px 10px;
+ border-radius: 7px 7px 7px 7px;
+ color: white;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+.mobile .upperMAINbg2 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 10px 10px;
+ font-size: 15px;
+}
+
+
+
+.upperMAINbg2A {
+ background-color: #585a6d;
+ padding: 3px 10px;
+ border-radius: 7px 7px 7px 7px;
+ color: white;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+.mobile .upperMAINbg2A {
+ padding: 5px 5px;
+ border-radius: 10px 10px 10px 10px;
+ font-size: 15px;
+}
+
+
+
+.upperMAINbgRound {
+ background-color: #797DA0;
+ padding: 3px 10px;
+ border-radius: 7px 7px 7px 7px;
+ color: #d5d6e1;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+.mobile .upperMAINbgRound {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+.interMAINbg {
+ background-color: #d5d6e1;
+ border-radius: 0px 0px 0px 0px;
+ color: #51504f;
+ position: relative;
+ left: 0;
+ padding: 7px 10px 0px 10px;
+ font-family: Century Gothic;
+ font-size: 21px;
+ font-weight: 600;
+}
+.mobile .interMAINbg {
+ padding: 5px 5px 0px 5px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.lowerMAINbg {
+ background-color: #d5d6e1;
+ border-radius: 0px 0px 7px 7px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 7px 10px;
+ font-size: 21px;
+}
+.mobile .lowerMAINbg {
+ padding: 5px 5px;
+ border-radius: 0px 0px 10px 10px;
+ font-size:20px;
+}
+
+
+
+.lowerMAIN2bg {
+ margin-top: 7px;
+ background-color: #d5d6e1;
+ border-radius: 5px 5px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 2px 10px;
+ font-size: 14px;
+}
+.mobile .lowerMAIN2bg {
+ padding: 5px 5px;
+ border-radius: 8px 8px;
+ font-size: 13px;
+}
+
+
+
+.Synonyms {
+ background-color: #d5d6e1;
+ border-radius: 5px 5px;
+ color: black;
+ position: relative;
+ margin-top: 7px;
+ padding: 2px 10px;
+ font-size: 14px;
+}
+.mobile .Synonyms {
+ padding: 5px 5px;
+ border-radius: 8px 8px;
+ font-size: 13px;
+}
+
+
+/* generic important/question */
+.upperIMPbg {
+  background-color: #e67c90;
+  padding: 3px 10px;
+  border-radius: 7px 7px 0px 0px;
+  color: #333333;
+  font-family: Century Gothic;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+  word-break: break-all;
+  border: 1px solid #c27a87;
+}
+.mobile .upperIMPbg {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* category */
+.upperIMPbg2 {
+ background-color: #c39394;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #b5787a;
+}
+.mobile .upperIMPbg2 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* synonyms */
+.upperIMPbg3 {
+ background-color: #8cbbd4;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #73a3bc;
+}
+.mobile .upperIMPbg3 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* extra */
+.upperIMPbg4 {
+ background-color: #FFFAF0;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: black;
+ font-family: Century Gothic;
+ font-size: 21px;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #c4c4c4;
+ text-shadow: 1px 1px 5px white;
+}
+.mobile .upperIMPbg4 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 17px;
+}
+
+
+/* pathophysiology */
+.upperIMPbg5 {
+ background-color: #e5b2d8;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #d887c4;
+}
+.mobile .upperIMPbg5 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* symptoms, signs, semeiotics */
+.upperIMPbg6 {
+ background-color: #c096dd;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #ae78d3;
+}
+.mobile .upperIMPbg6 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+/* etiology */
+.upperIMPbg7 {
+ background-color: #ffb5fd;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #444444;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #ffabfd;
+}
+.mobile .upperIMPbg7 {
+ padding: 5px 5px;
+ border-radius: 10px 0px 0px 0px;
+ font-size: 20px;
+}
+
+
+/* complications */
+.upperIMPbg8 {
+ background-color: #e6d266;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #a89534;
+}
+.mobile .upperIMPbg8 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.upperIMPbg9 {
+ background-color: #90cf6a;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #62a53a;
+}
+.mobile .upperIMPbg9 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* laboratory, diagnosis, differential diagnosis */
+.upperIMPbg10 {
+ background-color: #c3ff00;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #62a53a;
+}
+.mobile .upperIMPbg10 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* anatomopathology, histopathology */
+.upperIMPbg11 {
+ background-color: #76d0dc;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #333333;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #63a0a7;
+}
+.mobile .upperIMPbg11 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.upperIMPbg12 {
+ background-color: #49324b;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: white;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #351c38;
+}
+.mobile .upperIMPbg12 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* acronym */
+.upperIMPbg13 {
+  background-color: #fe8b8a;
+  padding: 3px 10px;
+  border-radius: 7px 7px 0px 0px;
+  color: #333333;
+  font-family: Century Gothic;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+  word-break: break-all;
+  border: 1px solid #fe6e6d;
+}
+.mobile .upperIMPbg13 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* epidemiology */
+.upperIMPbg14 {
+  background-color: #fec58a;
+  padding: 3px 10px;
+  border-radius: 7px 7px 0px 0px;
+  color: #333333;
+  font-family: Century Gothic;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+  word-break: break-all;
+  border: 1px solid #fcbb77;
+}
+.mobile .upperIMPbg14 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+/* risk factors */
+.upperIMPbg15 {
+  background-color: #C9DCB3;
+  padding: 3px 10px;
+  border-radius: 7px 7px 0px 0px;
+  color: #333333;
+  font-family: Century Gothic;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+  word-break: break-all;
+  border: 1px solid #b6d098;
+}
+.mobile .upperIMPbg15 {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.lowerIMPbg {
+ background-color: #faf9f9;
+ border-radius: 0px 0px 7px 7px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 7px 10px;
+ font-size: 21px;
+ border-bottom: 1px solid #e8e3e3;
+ border-left: 1px solid #e8e3e3;
+ border-right: 1px solid #e8e3e3;
+}
+.mobile .lowerIMPbg {
+ padding: 5px 5px;
+ border-radius: 0px 0px 10px 10px;
+ font-size: 20px;
+}
+
+
+
+.lowerIMPbgHint {
+ background-color: #faf9f9;
+ border-radius: 7px 7px 7px 7px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 7px 10px;
+ font-size: 24px;
+ border: 1px solid black;
+}
+
+.mobile .lowerIMPbgHint {
+ padding: 5px 5px;
+ border-radius: 10px 10px 10px 10px;
+ font-size: 20px;
+}
+
+
+
+.uppersecbg {
+ background-color: #aec0c2;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: #CDD3D3;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+.mobile .uppersecbg {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+.lowersecbg {
+ background-color: #FAF9F9;
+ border-radius: 0px 0px 7px 7px;
+ color: #bfbfbf;
+ position: relative;
+ left: 0;
+ padding: 3px 10px;
+ font-size: 18px
+}
+.mobile .lowersecbg {
+ padding: 5px 5px;
+ border-radius: 0px 0px 10px 10px;
+ font-size:15px;
+}
+
+
+
+.upperYELbg {
+ background-color: #f9e0a9;
+ padding: 3px 10px;
+ border-radius: 7px 7px 7px 7px;
+ color: black;
+ font-family: Century Gothic;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #dbbc76;
+}
+.mobile .upperYELbg {
+ padding: 5px 5px;
+ border-radius: 10px 10px 10px 10px;
+ font-size: 15px;
+}
+
+
+
+/* focus header */
+.upperFOCUSbg {
+ background-color: #FFFAF0;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: black;
+ font-family: Century Gothic;
+ font-size: 19px;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid #c4c4c4;
+ text-shadow: 1px 1px 5px white;
+}
+.mobile .upperFOCUSbg {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 18px;
+}
+
+
+
+
+
+/* ALBERO //////////////////////////////////////////////////////////////////////////*/
+
+.upperBLACKbg {
+ background-color: #575766;
+ padding: 3px 10px;
+ border-radius: 7px 7px 0px 0px;
+ color: white;
+ font-family: Century Gothic;
+ font-size: 21px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+}
+.mobile .upperBLACKbg {
+ padding: 5px 5px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.MAINbg {
+ background-color: #e9e5c8;
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 3px 10px;
+ font-size: 24px;
+ border-left: 1px solid;
+ border-right: 1px solid;
+}
+.mobile .MAINbg {
+ padding: 1px 5px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.MAINimp {
+ background-color: #e9e5c8;
+ -webkit-box-shadow: inset 0px 0px 70px -10px rgba(247,173,94,1);
+ -moz-box-shadow: inset 0px 0px 70px -10px rgba(247,173,94,1);
+ box-shadow: inset 0px 0px 70px -10px rgba(247,173,94,1);
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 3px 10px;
+ font-size: 24px;
+ border: 1px solid;
+}
+.mobile .MAINimp {
+ padding: 1px 5px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.MAINsec {
+ background-color: #e9e5c8;
+ border-radius: 0px 0px 0px 0px;
+ color: #d9d9d9;
+ position: relative;
+ left: 0;
+ padding: 2px 10px;
+ font-size: 24px;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+}
+.mobile .MAINsec {
+ padding: 1px 5px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 20px;
+}
+
+
+
+.MAINquest {
+ background-image: url("_patterncarino3.jpg");
+ background-repeat: repeat;
+ background-position: center;
+ background-color: black;
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ padding: 21px 10px;
+ border: 1px solid;
+}
+.mobile .MAINquest {
+ background-size: contain;
+ border-radius: 0px 0px 0px 0px;
+ padding: 20px 15px;
+}
+
+
+
+.MAINhint {
+ background-color: #d5d6e1;
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ padding: 3px 10px;
+ font-size: 17px;
+ border: 1px solid;
+}
+.mobile .MAINhint {
+ padding: 5px 5px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+.CHILDbg {
+ margin-left: 45px;
+ background-color: #faf9f9;
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 3px 10px;
+ font-size: 17px;
+ border: 1px solid;
+}
+.mobile .CHILDbg {
+ margin-left: 45px;
+ border-radius: 0px 0px 0px 0px;
+ padding: 1px 5px;
+ font-size: 17px;
+}
+
+
+
+.CHILDimp {
+ margin-left: 45px;
+ background-color: #faf9f9;
+ -webkit-box-shadow: inset 0px 0px 300px 2px rgba(255,158,158,1);
+ -moz-box-shadow: inset 0px 0px 300px 2px rgba(255,158,158,1);
+ box-shadow: inset 0px 0px 300px -10px rgba(255,158,158,1);
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 3px 10px;
+ font-size: 18px;
+ border: 1px solid;
+}
+.mobile .CHILDimp {
+ margin-left: 45px;
+ border-radius: 0px 0px 0px 0px;
+ padding: 1px 5px;
+ font-size: 17px;
+}
+
+
+
+.CHILDtitle {
+ margin-left: 45px;
+ background-color: #575766;
+ padding: 0px 10px;
+ border-radius: 0px 0px 0px 0px;
+ color: white;
+ font-family: Century Gothic;
+ font-size: 14px;
+ text-transform: uppercase;
+ font-weight: 600;
+ word-break: break-all;
+ border: 1px solid black;
+}
+.mobile .CHILDtitle {
+ margin-left: 45px;
+ border-radius: 0px 0px 0px 0px;
+ padding: 0px 5px;
+ font-size: 14px;
+}
+
+
+
+.CHILDquest {
+ margin-left: 45px;
+ background-image: url("_patterncarino3.jpg");
+ background-repeat: repeat;
+ background-position: center;
+ background-color: black;
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ padding: 21px 10px;
+ border: 1px solid;
+}
+.mobile .CHILDquest {
+ margin-left: 45px;
+ border-radius: 0px 0px 0px 0px;
+ background-size: contain;
+ padding: 20px 15px;
+}
+
+
+
+.CHILDhint {
+ background-color: #e9e5c8;
+ border-radius: 0px 0px 0px 0px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 2px 10px;
+ font-size: 17px;
+ border-left: 1px solid;
+ border-right: 1px solid;
+}
+.mobile .CHILDhint {
+ padding: 1px 5px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 17px;
+}
+
+
+
+.MAINlowercap {
+ background-color: #e9e5c8;
+ border-radius: 0px 0px 7px 7px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 2px 10px;
+ font-size: 24px;
+ border-left: 1px solid;
+ border-right: 1px solid;
+ border-bottom: 1px solid;
+}
+.mobile .MAINlowercap {
+ border-radius: 0px 0px 10px 10px;
+ padding: 2px 15px;
+}
+
+
+
+
+
+/* LINGUAGGI ///////////////////////////////////////////////////////////////////////////*/
+
+.upperLINGMAINbg {
+ background-color: #8b9dc3;
+ border-radius: 7px 7px 0px 0px;
+ color: white;
+ font-family: Century Gothic;
+ text-transform: uppercase;
+ font-weight: 600;
+ padding: 3px 10px 3px 10px;
+ font-size: 17px;
+}
+.mobile .upperLINGMAINbg {
+ padding: 1px 10px 1px 10px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+.upperLINGIMPbg {
+ background-color: #d3798a;
+ border-radius: 7px 7px 0px 0px;
+ color: white;
+ font-family: Century Gothic;
+ text-transform: uppercase;
+ font-weight: 600;
+ padding: 3px 10px 3px 10px;
+ font-size: 17px;
+}
+.mobile .upperLINGIMPbg {
+ padding: 1px 10px 1px 10px;
+ border-radius: 10px 10px 0px 0px;
+ font-size: 15px;
+}
+
+
+
+
+.MAIN1bg {
+ background-color: #fcfdff;
+ color: #333;
+ border-bottom: 1px solid #e8e3e3;
+ border-left: 1px solid #e8e3e3;
+ border-right: 1px solid #e8e3e3;
+ border-radius: 0px 0px 7px 7px;
+ position: relative;
+ left: 0;
+ font-weight: 600;
+ padding: 7px 10px 7px 10px;
+ font-size: 28px;
+}
+.mobile .MAIN1bg {
+ padding: 5px 10px 5px 10px;
+ border-radius: 0px 0px 10px 10px;
+ font-size: 25px;
+}
+
+
+
+.MAIN2bg {
+ background-color: #fcfdff;
+ color: #CDD3D3;
+ border-bottom: 1px solid #e8e3e3;
+ border-left: 1px solid #e8e3e3;
+ border-right: 1px solid #e8e3e3;
+ border-radius: 0px 0px 7px 7px;
+ position: relative;
+ left: 0;
+ padding: 7px 10px 7px 10px;
+ font-size: 28px;
+}
+.mobile .MAIN2bg {
+ padding: 5px 10px 5px 10px;
+ border-radius: 0px 0px 10px 10px;
+ font-size: 25px;
+}
+
+
+.traduzione {
+ background-color: #fcfdff;
+ color: #333;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ border-radius: 0px 0px 0px 0px;
+ position: relative;
+ left: 0;
+ font-weight: 600;
+ padding: 4px 10px 0px 10px;
+ font-size: 38px;
+}
+.mobile .traduzione {
+ padding: 5px 10px 0px 10px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 40px;
+}
+
+
+
+.definizione {
+ background-color: #fcfdff;
+ top: -2px;
+ color: #333;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ position: relative;
+ left: 0;
+ font-weight: 600;
+ padding: 0px 10px 0px 10px;
+ font-size: 17px
+}
+.mobile .definizione {
+ padding: 0px 10px 0px 10px;
+ font-size: 15px
+}
+
+
+
+.esempiostra {
+ position: relative;
+ top: -2px;
+ background-color: #fcfdff;
+ color: #333;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ padding: 0px 10px 0px 10px;
+ font-size: 17px;
+}
+.mobile .esempiostra {
+ padding: 0px 10px 0px 10px;
+ font-size: 15px;
+}
+
+
+
+.esempioita {
+ position: relative;
+ top: -2px;
+ background-color: #fcfdff;
+ color: #94a8b5;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ border-bottom: 1px solid #e1dedc;
+ padding: 0px 10px 1px 10px;
+ border-radius: 0px 0px 7px 7px;
+ font-size: 17px;
+}
+.mobile .esempioita {
+ padding: 0px 10px 1px 10px;
+ border-radius: 0px 0px 10px 10px;
+ font-size: 15px;
+}
+
+
+
+.esempiolast {
+ position: relative;
+ top: -2px;
+ background-color: #fcfdff;
+ color: white;
+ font-weight: 600;
+ border-radius: 0px 0px 7px 7px;
+ padding: 7px 10px 0px 10px;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ border-bottom: 1px solid #e1dedc;
+}
+.mobile .esempiolast {
+ padding: 5px 10px 0px 10px;
+ border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.or {
+ margin-top: 7px;
+ background-color: #fcfdff;
+ color: #333;
+ border: 1px solid #e1dedc;
+ border-radius: 7px;
+ position: relative;
+ left: 0;
+ padding: 7px 10px 7px 10px;
+ font-size: 24px;
+}
+.mobile .or {
+ padding: 5px 10px 5px 10px;
+ border-radius: 10px;
+ font-size: 25px;
+}
+
+
+
+.secondtrans {
+ margin-top: 7px;
+ background-color: #fcfdff;
+ color: #CDD3D3;
+ border: 1px solid #e1dedc;
+ border-radius: 7px;
+ position: relative;
+ left: 0;
+ padding: 7px 10px 7px 10px;
+ font-size: 24px;
+}
+.mobile .secondtrans {
+ padding: 5px 10px 5px 10px;
+ border-radius: 10px;
+ font-size: 25px;
+}
+
+
+
+.LINGhint {
+ margin-top: 7px;
+ background-color: #fcfdff;
+ color: #333;
+ border: 1px solid #e1dedc;
+ border-radius: 7px;
+ position: relative;
+ left: 0;
+ padding: 7px 10px 7px 10px;
+ font-size: 21px;
+}
+.mobile .LINGhint {
+ padding: 5px 10px 5px 10px;
+ border-radius: 10px;
+ font-size: 25px;
+}
+
+
+
+.image {
+ padding: 14px 0px 14px 0px;
+ max-width: 100%;
+ height: auto;
+ text-align: center;
+}
+
+
+
+.etimbg {
+ position: relative;
+ top: -2px;
+ background-color: #fcfdff;
+ color: #333;
+ border-bottom: 1px solid #e8e3e3;
+ border-left: 1px solid #e8e3e3;
+ border-right: 1px solid #e8e3e3;
+ padding: 7px 10px 7px 10px;
+ border-radius: 0px 0px 7px 7px;
+ font-size: 28px;
+ font-weight: 600;
+}
+.mobile .etimbg {
+ padding: 5px 10px 5px 10px;
+ border-radius: 0px 0px 10px 10px;
+ font-size: 25px;
+}
+
+
+
+.simbolo1 {
+ background-color: #fcfdff;
+ color: #333;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ border-radius: 0px 0px 0px 0px;
+ position: relative;
+ left: 0;
+ font-weight: 600;
+ padding: 7px 10px 0px 10px;
+ font-size: 38px;
+}
+.mobile .simbolo1 {
+ padding: 5px 10px 0px 10px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 45px;
+}
+
+
+
+.simbolo2 {
+ background-color: #fcfdff;
+ color: #333;
+ border-left: 1px solid #e1dedc;
+ border-right: 1px solid #e1dedc;
+ border-radius: 0px 0px 0px 0px;
+ position: relative;
+ left: 0;
+ font-weight: 200;
+ padding: 7px 10px 0px 10px;
+ font-size: 38px;
+}
+.mobile .simbolo2 {
+ padding: 5px 10px 0px 10px;
+ border-radius: 0px 0px 0px 0px;
+ font-size: 45px;
+}
+
+
+
+.ipa {
+ color: #CDD3D3;
+ display: inline-block;
+ font-weight: 200;
+}
+.mobile .ipa {
+
+}
+
+
+
+/* QUEST ///////////////////////////////////////////////////////////////////////////*/
+
+.quest {
+ background-image: url("_patterncarino3.jpg");
+ background-repeat: repeat;
+ background-position: center;
+ background-color: black;
+ border-radius: 0px 0px 7px 7px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 24px 10px;
+ border-top: 1px solid;
+ top: -1px;
+}
+.mobile .quest {
+ background-size: contain;
+ border-radius: 0px 0px 10px 10px;
+ padding: 25px 15px;
+}
+
+
+
+.quesrev {
+ background-image: url("_patterncarino3.jpg");
+ background-repeat: repeat;
+ background-position: center;
+ background-color: black;
+ border-radius: 7px 7px 0px 0px;
+ color: black;
+ position: relative;
+ left: 0;
+ padding: 11px 10px;
+ border: 1px solid;
+}
+.mobile .quesrev {
+ background-size: contain;
+ border-radius: 10px 10px 0px 0px;
+ padding: 12px 15px;
+}
+
+
+
+
+
+/* HINT ////////////////////////////////////////////////////////////////////////////*/
+
+.hint {
+ background-color: #d5d6e1;
+ border-radius: 5px 5px 5px 5px;
+ color: black;
+ padding: 3px 10px;
+ font-size: 17x;
+ border: 1px solid;
+}
+.mobile .hint {
+ padding: 5px 5px;
+ border-radius: 7px 7px 7px 7px;
+ font-size: 15px;
+}
+
+
+
+
+
+/* HR //////////////////////////////////////////////////////////////////////////////*/
+
+hr {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+
+
+
+/* ICONS FIELD /////////////////////////////////////////////////////////////////////*/
+
+.icon1{
+max-height: 19px;
+width: 38px;
+display: inline-flex;
+vertical-align: -11%;
+}
+.mobile .icon1 {
+max-height: 18px;
+width: 37px;
+vertical-align: -12%;
+}
+
+
+
+.icon2{
+max-height: 27px;
+width: 27px;
+display: inline-flex;
+vertical-align: -18%;
+}
+.mobile .icon2{
+max-height: 26px;
+width: 26px;
+vertical-align: -19%;
+}
+
+
+
+.icon3{
+max-height: 20px;
+width: 22px;
+display: inline-flex;
+vertical-align: -17%;
+opacity: 0.7;
+}
+.mobile .icon3{
+max-height: 19px;
+width: 21px;
+vertical-align: -18%;
+}
+
+
+
+.icon4{
+max-height: 20px;
+width: 22px;
+display: inline-flex;
+vertical-align: -17%;
+opacity: 0.5;
+}
+.mobile .icon4{
+max-height: 19px;
+width: 21px;
+vertical-align: -18%;
+}
+
+
+
+.icon5{
+max-height: 25px;
+width: 25px;
+display: inline-flex;
+vertical-align: -25%;
+}
+.mobile .icon5{
+max-height: 24px;
+width: 24px;
+vertical-align: -26%;
+}
+
+
+
+
+
+/* IMAGE FIELD /////////////////////////////////////////////////////////////////////*/
+
+.image {
+ max-width: 100%;
+ height: auto;
+ font-size: 15px;
+ text-align: center;
+ padding-top: 14px;
+}
+
+
+
+
+
+/* not used {{Deck}} <img class="context_image {{Deck}}" height = "16px"/>*/
+
+.Francese { content: url("_1920px-Flag_of_France.svg.png"); }
+.Greco { content: url("_ancientgreekflag.jpg"); }
+.Inglese { content: url("_800px-Flag_of_the_United_Kingdom1.png"); }
+.Italiano { content: url("_1920px-Flag_of_Italy.svg.png"); }
+.Latino { content: url("_1000px-Flag_of_the_Vatican_City.svg.png"); }
+.Olandese { content: url("_1920px-Flag_of_the_Netherlands.svg.png"); }
+.Rumeno { content: url("_1920px-Flag_of_Romania1.png"); }
+.Spagnolo { content: url("_1920px-Flag_of_Spain.svg.png"); }
+.Tedesco { content: url("_800px-Flag_of_Germany.svg.png"); }
+
+
+
+
+
+/* CSS NOT USED /////////////////////////////////////////////////////////////////////*/
+/*
+img.context_image {
+ height: 14px;
+ border: 1px solid #666666;
+}
+.mobile img.context_image {
+ height: 15px;
+ border: 1px solid #666666;
+}
+*/
