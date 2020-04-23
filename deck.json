@@ -1,0 +1,1466 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "0f2ce705-855f-11ea-a64c-7085c26d939d",
+    "deck_config_uuid": "0f2d3525-855f-11ea-b033-7085c26d939d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoQuestion": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "0f2d3525-855f-11ea-b033-7085c26d939d",
+            "currentValue": 200,
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.1
+            },
+            "maxLife": 200,
+            "maxTaken": 300,
+            "name": "Studio",
+            "new": {
+                "LBEIMinAfter": 4,
+                "LBEIMinBefore": 4,
+                "LBGIMinAfter": 1,
+                "LBGIMinBefore": 1,
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4
+                ],
+                "order": 1,
+                "perDay": 9999,
+                "separate": true
+            },
+            "recover": 15,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.5,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "031920_ts_covid-conspiracies_inline_680.jpg",
+        "_patterncarino3.jpg",
+        "_style.anki.main.css"
+    ],
+    "mid": "1570899821492",
+    "name": "Ultimate Reddit General Knowledge",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "css": "/*\nWritten by aPaci95 (anki.italy@gmail.com)\nYou can find me on reddit r/anki; i'm u/aPaci95\n\nSe sei italiano ti invito a fare un salto sul subreddit r/ankitaly https://www.reddit.com/r/Ankitaly/\n\nYou are free to edit and adapt this note type for your purposes, as long as it remains free\n*/\n\n\n\n\n\n@import url(\"_style.anki.main.css\");\n\n\nlabel {\n box-shadow:inset 0px 1px 0px 0px #ffffff;\n background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);\n background-color:#ededed;\n border-radius:6px;\n border:1px solid #dcdcdc;\n display:inline-block;\n cursor:pointer;\n color:#777777;\n font-size:10px;\n font-weight:bold;\n padding:2px 7px;\n float: right;\n margin-top: 5px;\n}\nlabel:hover {\n background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);\n background-color:#dfdfdf;\n}\nlabel:active {\n position:relative;\n top:1px;\n}\n\n\n#trigger {\n display: none;\n}\n\n.showall{\n display: none;\n color: #bfbfbf;\n position: relative;\n}\n#trigger:checked ~ .showall{\n    display: block;\n}\n#trigger:checked ~ .default{\n    display: none;\n}\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "MAIN",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Title",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text_original",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Hint",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 10,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_01",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_01",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_02",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_02",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_03",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_03",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_04",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_04",
+                    "ord": 11,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_05",
+                    "ord": 12,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_05",
+                    "ord": 13,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_06",
+                    "ord": 14,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_06",
+                    "ord": 15,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_07",
+                    "ord": 16,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_07",
+                    "ord": 17,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_08",
+                    "ord": 18,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_08",
+                    "ord": 19,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_09",
+                    "ord": 20,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_09",
+                    "ord": 21,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_MAIN_10",
+                    "ord": 22,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra_10",
+                    "ord": 23,
+                    "rtl": false,
+                    "size": 15,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Finder",
+                    "ord": 24,
+                    "rtl": false,
+                    "size": 10,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Source",
+                    "ord": 25,
+                    "rtl": false,
+                    "size": 10,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Article_questions_6.1",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        3,
+                        4
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        6
+                    ]
+                ],
+                [
+                    2,
+                    "any",
+                    [
+                        8
+                    ]
+                ],
+                [
+                    3,
+                    "any",
+                    [
+                        10
+                    ]
+                ],
+                [
+                    4,
+                    "any",
+                    [
+                        12
+                    ]
+                ],
+                [
+                    5,
+                    "any",
+                    [
+                        14
+                    ]
+                ],
+                [
+                    6,
+                    "any",
+                    [
+                        16
+                    ]
+                ],
+                [
+                    7,
+                    "any",
+                    [
+                        18
+                    ]
+                ],
+                [
+                    8,
+                    "any",
+                    [
+                        20
+                    ]
+                ],
+                [
+                    9,
+                    "any",
+                    [
+                        22
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_01}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_01}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>\n\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra01",
+                    "ord": 0,
+                    "qfmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_01}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_02}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_02}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra02",
+                    "ord": 1,
+                    "qfmt": "{{#Extra_MAIN_02}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_02}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_02}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_03}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_03}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra03",
+                    "ord": 2,
+                    "qfmt": "{{#Extra_MAIN_03}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_03}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_03}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_04}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_04}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra04",
+                    "ord": 3,
+                    "qfmt": "{{#Extra_MAIN_04}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_04}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_04}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_05}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_05}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra05",
+                    "ord": 4,
+                    "qfmt": "{{#Extra_MAIN_05}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_05}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_05}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_06}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_06}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra06",
+                    "ord": 5,
+                    "qfmt": "{{#Extra_MAIN_06}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_06}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_06}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_07}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_07}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra07",
+                    "ord": 6,
+                    "qfmt": "{{#Extra_MAIN_07}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_07}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_07}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_08}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_08}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra08",
+                    "ord": 7,
+                    "qfmt": "{{#Extra_MAIN_08}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_08}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_08}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_09}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_09}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra09",
+                    "ord": 8,
+                    "qfmt": "{{#Extra_MAIN_09}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_09}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_09}}"
+                },
+                {
+                    "afmt": "{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{edit:Extra_MAIN_10}}\n</div>\n<div class=lowerIMPbg>\n{{edit:Extra_10}}\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<label for=\"trigger\">View all</label> <br> \n{{Title}}\n</div>\n<input id=\"trigger\" type=\"checkbox\">\n<div class=\"showall\">\n<div class= \"lowersecbg\">\n{{Text_original}}\n</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Extra10",
+                    "ord": 9,
+                    "qfmt": "{{#Extra_MAIN_10}}\n{{#Hint}}\n<div class= \"upperMAINbg2A\">\n{{Hint}}\n</div>\n{{/Hint}}\n\n<div style=\"height:5px;font-size:1px;\">&nbsp;</div>\n<div class= \"upperIMPbg4\">\n {{Extra_MAIN_10}}\n</div>\n<div class=quest>\n</div>\n\n<br>\n<div class= \"uppersecbg\">\n{{MAIN}}<br>\n{{Title}}\n</div>\n{{/Extra_MAIN_10}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fvaqnz/eli5_does_our_body_know_unconsciously_what_foods/",
+                "ELI5: Does our body know unconsciously what foods have which nutrients in them?",
+                "<div>Humans and animals do, to a large extent. <span style=\"background-color: rgb(180, 232, 255);\">Egg laying chickens</span>, for example, have been shown to effectively regulate their calcium intake - <span style=\"background-color: rgb(180, 232, 255);\">if provided with regular feed and limestone (a calcium source), they will eat the regular feed during the day and the calcium in the evening</span>, which is when their body needs it the most to form the shell of the egg they lay in the morning.<br></div><div><div>There have been studies utilising what’s called geometric framework analysis which show that <span style=\"background-color: rgb(180, 232, 255);\">humans eat to satisfy their protein requirement</span> - so you will keep on eating until you have the protein your body needs, <span style=\"background-color: rgb(180, 232, 255);\">regardless of the carbohydrates and fats (and hence energy) </span>that come with it. <span style=\"background-color: rgb(180, 232, 255);\">Your body also craves rich energy sources</span> - sugars, easily digestible starches, and fats. This in combination with a <span style=\"background-color: rgb(180, 232, 255);\">sodium</span> appetite (which I think all vertebrates have) can explain why food like potato chips can be so addictive.</div><div>I think the more you pay attention to what you eat and notice how it makes you feel, the better you will be at identifying what your body needs. Educating yourself on the nutrient values of food and what different nutrients do for you might also help - although it’s hard to tell if that’s a bit of a placebo type effect or not.</div></div><div><br></div><div><br><div>I recall hearing an interview with some guy who survived being left adrift on the ocean for weeks. He managed to catch fish to eat and survived by drinking rain water. He said that he found he had an urge to eat fish eyes. Turns out they are rich in some nutrients that are not found in the rest of the animal. I imagine that he would have had to try them at least once before his body would unconsciously recognise that they contained the good stuff.</div><div>Edit: found the article&nbsp;https://www.theguardian.com/world/2014/feb/04/castaway-jose-salvador-alvarenga-survival-expert?CMP=Share_iOSApp_Other</div><div>Fish eyes are full of vitamin C, who knew?</div></div>",
+                "",
+                "Does our body know unconsciously what foods have which nutrients in them?",
+                "&nbsp;- yes, <span style=\"background-color: rgb(194, 236, 171);\">humans eat to satisfy their protein requirement&nbsp;regardless of the carbohydrates and fats</span> (and hence energy)",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j0pI+l<2t<",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fusojx/eli5_why_does_bleach_solution_lose_effectiveness/",
+                "ELI5: Why does bleach solution lose effectiveness after 24 hours?",
+                "<div>Because <span style=\"background-color: rgb(180, 232, 255);\">bleach breaks down into salt.</span></div><div>Bleach works because it is very reactive and it breaks down a lot of organic material it comes into contact with, but the bleach itself also reduces to salt.</div><div>Pure bleach breaks down over time which is why bleach that is a year old isn't as effective.</div><div><span style=\"background-color: rgb(180, 232, 255);\">When you mix it with water, it breaks down faster</span> and so isn't as useful the next day because there isn't as much bleach left.</div><div><br></div><div><span style=\"background-color: rgb(180, 232, 255);\">Chlorine evaporates and breaks down due to UV</span>. <span style=\"background-color: rgb(180, 232, 255);\">This is why all chlorine products are stored in solid color containers.</span><br></div>",
+                "",
+                "Why does bleach solution lose effectiveness after 24 hours?",
+                "&nbsp;- chlorine evaporates and breaks down due to UV",
+                "Chlorine evaporates and breaks down due to UV, this is why chlorine products are stored ...",
+                "&nbsp;-&nbsp;in solid color containers",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b@+V||uo7.",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fv663v/eli5_what_do_people_mean_when_they_say_gas_planet/",
+                "ELI5: What do people mean when they say “gas planet”? Like, when people refer to Jupiter as a gas planet, are they saying Jupiter has no solid surface like Earth does?",
+                "It's complicated. A gas giant, by modern definitions, <span style=\"background-color: rgb(180, 232, 255);\">is a planet composed almost entirely of hydrogen and helium - you could consider it a failed star</span>, if you want. However, that doesn't mean it is entirely gaseous. As pressure increases - which it does as you move towards the centre of the planet - molecules are forced to change state. First, there's sufficient pressure that the hydrogen starts behaving like a liquid. Then, further down, there's sufficient pressure that it starts behaving like a solid. <span style=\"background-color: rgb(180, 232, 255);\">There&nbsp;is&nbsp;a solid surface to the gas giants, it's just buried deep,</span> deep within them, and if you were to try and stand on it (and could somehow counter pressure on yourself) you would eventually become buoyant long before you touch any solid material, as you would reach a point where the pressure of the hydrogen around you is enough that it becomes too dense for you to continue falling. At this point, the hydrogen would actually still by a gas, but you'd be buoyant in it anyway.<div><br></div><div><div><br>The <span style=\"background-color: rgb(180, 232, 255);\">planet may have a solid molten core</span>, <span style=\"background-color: rgb(180, 232, 255);\">but is primarily composed of hydrogen and helium</span>.</div><div>Gas giants are often thought of as stars that missed the cut-off to become heavy enough to ”ignite” and sustain nuclear fusion.</div><div>Compare these types of planets to gaseous planets made of heavier molecules and elements or planets which are rocky.</div></div>",
+                "",
+                "What do people mean when they say “gas planet” (es. Jupiter)?",
+                "&nbsp;- the&nbsp;planet may have a solid molten core,&nbsp;but is primarily composed of <span style=\"background-color: rgb(194, 236, 171);\">hydrogen and helium</span>",
+                "Gas giants are often thought of as stars that ...",
+                "&nbsp;- missed the cut-off to become heavy enough to ”ignite” and sustain nuclear fusion<br>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N;]J(l_,pP",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fu81jc/eli5_why_do_chickens_fall_under_hypnosis_by/",
+                "ELI5: Why do chickens fall under hypnosis by simply drawing a line in front of them?",
+                "<div>From a quick Google search that lead to a Smithsonian Magazine article \" <span style=\"background-color: rgb(180, 232, 255);\">Tonic immobility&nbsp;is what researchers call&nbsp;\"a fear-potentiated response” to being restrained</span>. In other words, <span style=\"background-color: rgb(180, 232, 255);\">the chicken (or any other animal that exhibits this response) is convinced that it is going to die and goes into a kind of cationic state</span>. According to Beredimas, farmers have known about this trick at least since 1646, when Athanasius Kircher published&nbsp;\"Mirabile Experimentum de Imaginatione Gallinae.”&nbsp;The reaction seems to be most commonly reported in domesticated birds like chickens and quail, but other species seem to demonstrate tonic immobility as well.&nbsp;One study from 1928&nbsp;looked at the response in lizards.&nbsp;Another watched the brains of rabbits&nbsp;during movement, rest, sleep and tonic immobility. \"</div><div><br></div><div>Arrabiata Sauce:&nbsp;https://www.smithsonianmag.com/smart-news/can-you-hypnotize-chicken-180949940/</div>",
+                "",
+                "Why do chickens fall under <span style=\"background-color: rgb(194, 236, 171);\">hypnosis</span> by simply drawing a line in front of them?",
+                "&nbsp;-&nbsp;the chicken (or any other animal that exhibits this response) is convinced that it is going to die and goes into a kind of cationic state (<span style=\"background-color: rgb(180, 232, 255);\">tonic immobility</span>)",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f=E%oGn?P`",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fuun6r/eli5_why_do_alcoholics_die_when_they_stop_drinking/",
+                "ELI5: Why do alcoholics die when they stop drinking?",
+                "<div><span style=\"background-color: rgb(180, 232, 255);\">Alcohol is a depressant</span>, which means it slows the activity of the brain. If someone abuses alcohol over a long period of time, <span style=\"background-color: rgb(180, 232, 255);\">their brain will adapt and create more and more sensitive reactive chemicals to try to retain normal brain function even in the presence of alcohol</span>. This is called tolerance.</div><div>If the person were to suddenly quit drinking, the alcohol that was inhibiting brain reactions is no longer present, but the overly reactive chemicals are still there, meaning the brain is way more active than its supposed to be. This is a seizure. Think <span style=\"background-color: rgb(180, 232, 255);\">overloading a circuit with too much electricity - it burns out and misfires</span>.</div><div>Tl:Dr: Brain becomes tolerant to alcohol and short-circuits in its absence.</div>",
+                "",
+                "Why do alcoholics die when they stop drinking?",
+                "&nbsp;- brain becomes tolerant to alcohol (depressant) and short-circuits in its absence",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e72BF/_.Er",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fvdkfx/eli5_why_do_appliances_like_fans_have_the_off/",
+                "ELI5: why do appliances like fans have the off setting right next to the highest setting, instead of the lowest?",
+                "For some fans the amount of power required to get the blades spinning is higher than the amount provided by the lowest setting. The lowest is enough to keep the blades spinning but not overcome the inertia at the start",
+                "",
+                "Why do appliances like fans have the off setting right next to the highest setting, instead of the lowest?",
+                "&nbsp;-&nbsp;the amount of power required to get the blades spinning (win the inertia) is higher than the amount provided by the lowest setting",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H[<bmBx%YW",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fvc5y6/eli5_how_can_you_lose_an_entire_limb_and_survive/",
+                "ELI5: How can you lose an entire limb and survive, but sever a single blood vessel in your limb and bleed to death in seconds?",
+                "<div><div><div>Having a limb severed causes the arteries and veins to retract into the body (shunting), allowing the compression of whatever body part they retract into to slow the bleeding down. Having a sliced artery in place allows free flow of large amounts of blood.</div></div></div><div><br></div><div>First, this depends on the vessel size and where it is. If a large blood vessel in your chest, like your aorta, were to rupture it can leak a lot more blood in less time than a number of smaller vessels in your limbs put together. Second, your body has the ability to “shunt” blood from the outer parts of your body to your core to save the most vital parts of you. When you cut off a limb, if it is relatively clean, the vessels themselves will constrict to help slow down blood loss and the body will use that “shunting” ability to slow down blood movement to your extremities, keeping blood for your heart and brain. This shunting ability is also the reason why most bicyclist and motorcyclists quickly come to know that the warmest gloves in the world will not keep your hands warm and nimble, unless your core is also warm. The body will always redirect blood flow from your hands to keep your core warm, unless those body parts are addressed first. Lastly blood loss from your extremites is more likely to be quickly detected and controlled. Internal blood loss from a vessel can go on for awhile before producing shock and any physical signs. In fact, most of the signs will be fairly general. When my wife’s appendix burst, she initially reported general abdominal pain and a feeling of uneasiness. Obviously, if her arm had been missing she would have called for an ambulance a lot sooner. Most of the bruising that appears from an internal rupture is considered a late sign of internal bleeding.<br></div>",
+                "",
+                "How can you lose an entire limb and survive, but sever a single blood vessel in your limb and bleed to death in seconds?",
+                "&nbsp;- Having a limb severed causes the arteries and veins to retract into the body (shunting), allowing the compression of whatever body part they retract into to slow the bleeding down.&nbsp;<div>&nbsp;- Having a sliced artery in place allows free flow of large amounts of blood.</div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B`{Di)m(Ww",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fvbhv6/eli5_what_happens_to_the_body_when_a_person/",
+                "ELI5: What happens to the body when a person suddenly stops smoking weed (after doing so for years and years of their life) ?",
+                "<span style=\"background-color: rgb(180, 232, 255);\">When you smoke weed, it releases the \"reward\" hormone</span>, serotonin or dopamine or whatever. This is why stoners can be unmotivated, they don't get the reward in the brain for completing tasks, they get it from weed. So <span style=\"background-color: rgb(180, 232, 255);\">when quitting, it's normal to become mildly depressed and apathetic for a couple of days as your body gets used to releasing these chemicals without the help of weed</span>. Trouble falling asleep is the most normal effect of quitting, and can be a real bitch. Also the appetite can really take a hit and this might last for weeks before feeling normal again, but then it's often better than when smoking every day. As mentioned, you also start dreaming pretty heavily as you don't dream when smoking. Sweaty hands and sweating while sleeping is also normal. I've had all these symptoms when quitting, but have also experienced way less other times I quit. It's individual, but I find it really weird I'm the first one to say there are effects, while other comments claim there are none. If there were none there wouldn't be so many stoners.",
+                "",
+                "What happens to the body when a person suddenly stops smoking weed (after doing so for years and years of their life) ?",
+                "&nbsp;- mild depressed and apathetic&nbsp;as your body gets used to releasing these chemicals without the help of weed<br><div>&nbsp;- abstinence symptoms (appetite loss, trouble sleeping, ecc.)</div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DFhU|/e&j+",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/askscience/comments/fv0w68/is_the_mass_use_of_disinfectant_and_other/",
+                "<div><div><div>Is the mass use of disinfectant and other preventive cleaning measures in households across the world right now going to cause an increase in disinfectant/drug resistant bacteria and viruses?</div></div></div>",
+                "<span style=\"background-color: rgb(180, 232, 255);\">Alcohol and alkaline products&nbsp;physically&nbsp;disrupt proteins and especially the fatty acids that make up the cells membranes and viruses capsides</span>. It is much much harder (but not impossible) to develop a resistance to that.<div><br></div><div><div>I want to add to this excellent answer by saying that there is one Australian study that suggests one species of bacteria is becoming more tolerant to alcohol-based hand rubs but none of the species they tested were able to withstand 70% ethanol sterilization. The study suggests that there could be ways for bacteria to become progressively more tolerant to alcohols, though these mechanisms remain poorly understood.</div><div><a href=\"https://stm.sciencemag.org/content/10/452/eaar6115.full\">https://stm.sciencemag.org/content/10/452/eaar6115.full</a></div></div><div><br></div><div>The best analogy I've heard is that bacteria developing a resistance to alcohol <span style=\"background-color: rgb(180, 232, 255);\">is like a human developing a resistance to fire</span>. <span style=\"background-color: rgb(180, 232, 255);\">You can train yourself to withstand more heat that most people</span>, <span style=\"background-color: rgb(180, 232, 255);\">but you're still going to die if I set you on fire</span>.</div>",
+                "",
+                "Is the <span style=\"background-color: rgb(180, 232, 255);\">mass use of disinfectant</span> and other preventive cleaning measures in households across the world right now (<span style=\"background-color: rgb(180, 232, 255);\">coronavirus pandemy</span>) going to cause an <span style=\"background-color: rgb(180, 232, 255);\">increase in disinfectant/drug resistant bacteria and viruses</span>?",
+                "&nbsp;-&nbsp;Alcohol and alkaline products&nbsp;physically&nbsp;disrupt proteins and especially the fatty acids that make up the cells membranes and viruses capsides.<div>&nbsp;- like a human developing a resistance to fire</div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P?=m>vf:s-",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::AskScience"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/LifeProTips/comments/fv9pu8/lpt_pressing_ctrl_backspace_will_delete_the/",
+                "<div><div><div>LPT : Pressing Ctrl + Backspace will delete the entire word while typing</div></div><div></div></div><div><div><br></div></div>",
+                "LPT : Pressing Ctrl + Backspace will delete the entire word while typing",
+                "",
+                "Pressing [...] <span style=\"background-color: rgb(180, 232, 255);\">will delete the entire word while typing</span>",
+                "&nbsp;Ctrl + Backspace",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bzd2DgWit.",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::LifeProTips"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/OutOfTheLoop/comments/fv88yd/whats_going_on_with_us_companies_threatening_to/",
+                "What’s going on with US companies threatening to fire employees if they wear protective masks??",
+                "<div>Premise: I’m European and have been living in Asia for quite a while.</div><div>So, I follow&nbsp;<a href=\"https://www.reddit.com/r/legaladvice/\">r/legaladvice</a>&nbsp;and I keep seeing posts of people living/working in the US asking advice because their employer is threatening to fire them if they wear a protective mask, amidst this Covid-19 pandemic. Here some threads to give you some context:</div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fpcyux/hospital_admins_banning_masks_for_workers/\">r/legaladvice/comments/fpcyux/hospital_admins_banning_masks_for_workers/</a></div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fmwoar/do_i_have_a_lawsuit_on_my_hands/\">r/legaladvice/comments/fmwoar/do_i_have_a_lawsuit_on_my_hands/</a></div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fmbc49/one_of_my_coworkers_is_having_their_job/\">r/legaladvice/comments/fmbc49/one_of_my_coworkers_is_having_their_job/</a></div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fm0blh/wife_is_a_nurse_administration_is_not_allowing/\">r/legaladvice/comments/fm0blh/wife_is_a_nurse_administration_is_not_allowing/</a></div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fl0zzx/major_retailer_is_actively_threatening_to_fire_me/\">r/legaladvice/comments/fl0zzx/major_retailer_is_actively_threatening_to_fire_me</a></div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fkrn1h/i_was_fired_for_wearing_a_protective_face_mask_to/\">r/legaladvice/comments/fkrn1h/i_was_fired_for_wearing_a_protective_face_mask_to/</a></div><div><a href=\"https://www.reddit.com/r/legaladvice/comments/fjex5l/bosses_want_to_fire_me_because_i_refuse_to_infect/\">r/legaladvice/comments/fjex5l/bosses_want_to_fire_me_because_i_refuse_to_infect</a></div><div><br></div><div>In the first place, I cannot understand how it can be legal for someone to be fired for using potentially life-saving protection amidst a pandemic. That would be a violation of human rights in most countries I know. Anyways, seems like US and state laws are not in favor of these employees. I don’t know if this will change now that the US CDC has changed its recommendation, now advising people to wear a mask.</div><div>My question is not so much on the legality of employers firing (or threatening to fire) people for wearing a mask... but rather on the \"<strong>why</strong>\". Why would anyone forbid people from using life-saving protection amidst a pandemic???</div><div>From the reality I’m used to (Asia), the opposite would be normal: employees fired or more likely forbid from going to work if not wearing a mask.</div>So, what’s up with employers in the US?? Is it just blind and extreme political partisanship? Or some other reason?<div><br></div><div><br></div><div>Answer: since the US doesn't have a culture of preventative mask wearing, employees with masks may be seen as potentially sick (since masks are associated with already sick people). Businesses are afraid they will scare customers away.</div>",
+                "",
+                "What’s going on with US companies threatening to fire employees if they wear protective masks??",
+                "&nbsp;-&nbsp;Businesses are afraid they will scare customers away",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GvpmM]l[S_",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::OutOfTheLoop"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/YouShouldKnow/comments/fv7ys7/ysk_about_the_life_saving_drug_naloxone_that_can/",
+                "YSK about the life saving drug Naloxone that can reverse opioid overdose, administered with a simple nasal spray.",
+                "In Ontario, Canada, you can walk into any Shoppers Drug Mart and request a Narcan/Naloxone kit. No questions ask, they'll give it to you for free, and even train you on how to use it. As a 911 operator, Naloxone is very much the difference of life or death in an overdose, but it only lasts about 15 mins before needing another dose and emergency medical attention.",
+                "",
+                "Naloxone only lasts about <span style=\"background-color: rgb(180, 232, 255);\">[...]</span>&nbsp;before needing another dose and emergency medical attention",
+                "&nbsp;-&nbsp;15 minutes",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CQVr=0|l^?",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::YouShouldKnow"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/IsItBullshit/comments/bbymfs/isitbullshit_you_should_never_say_the_word_yes_on/",
+                "<div><div><div>IsItBullshit: You should never say the word ‘yes’ on a phone call with someone you don’t trust as it can be used to authorise transactions under your name without your consent?</div></div></div>",
+                "<div>LPT - if anyone calls you about anything, even if you are sure it is legit, tell them you will call their company back using the number you have for them. Don’t let them give you a callback number. Call the company and if it was really them you’re all good. If it wasn’t you’re a friendly customer alerting them to a phone fraud scheme aimed at their customers.</div><div>This comes from an incident where the person on the phone actually had my account information from a telco. Didn’t smell a fraud until they asked for my passport or green card number.</div><div><br></div><div>Not bullshit. Happened in my country (in Europe) and it was on TV in the news. After some time my grandma got couple calls where the person asked \"is your name xxxxx?\" (her name) and instead of saying \"yes\" she said \"what is it about?\" and they hanged up.<br></div><div><br></div><div><div>The FCC thinks it's not BS.</div><div>https://www.chicagotribune.com/suburbs/ct-ahp-column-help-squad-tl-0322-story.html</div><div>https://abcnews.go.com/Business/fcc-warns-consumers-phone-scam/story?id=46405703</div></div>",
+                "",
+                "You should never <span style=\"background-color: rgb(194, 236, 171);\">say the word ‘yes’</span> on a <span style=\"background-color: rgb(194, 236, 171);\">phone call</span> with someone you don’t trust as it can be used to <span style=\"background-color: rgb(194, 236, 171);\">authorise transactions</span> under your name <span style=\"background-color: rgb(194, 236, 171);\">without your consent</span>?",
+                "It's true, it has been used multiple time often for elderly people",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rh}&YZ7)WI",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::IsItBullshit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/IsItBullshit/comments/bpcwkk/isitbullshit_does_acupuncture_work/",
+                "IsItBullshit: Does acupuncture work?",
+                "<div>No academic sources in this thread yet, so I'll chime in. Note that part of the problem is that the question isn't well defined enough. If you specify what you means by \"work\" I can look for more specific studies. Nevertheless, I have gathered some sources below looking at various health benefits acupuncture advocates claim.</div><div><br></div><div>I am personally skeptical of acupuncture, but I'm also not an expert. Additionally, there are large meta-analyses published in reputable journals in the last five years that seem to provide some evidence of effectiveness beyond placebo, particularly in pain management. Of course that doesn't mean that all of the supposed benefits are true (see the last study below on mental health), but the exaggerated claims of its practitioners do not rule out the possibility that it does have some real effects.</div><div><br></div><ul><li><div><strong style=\"background-color: rgb(215, 243, 255);\">Does it work for for pain?</strong></div><ul><li><div><span style=\"background-color: rgb(215, 243, 255);\">Simple answer: Yes, slightly.</span></div></li><li><div>Source:</div><ul><li><div><a href=\"https://www.sciencedirect.com/science/article/pii/S1526590017307800\">Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis</a></div></li><li><div>The Journal of Pain Volume 19, Issue 5, May 2018</div></li><li><div>Study size: 20,827 patients from 39 trials</div></li><li><div>Conclusion:&nbsp;<em>\"</em><em><strong>We conclude that acupuncture is effective for the treatment of chronic pain</strong></em><em>, with treatment effects persisting over time. Although factors in addition to the specific effects of needling at correct acupuncture point locations are important contributors to the treatment effect,</em>&nbsp;<em><strong>decreases in pain after acupuncture cannot be explained solely in terms of placebo effects.</strong></em><em>\"</em></div></li></ul></li></ul></li></ul><div><br></div><ul><li><div><strong style=\"background-color: rgb(215, 243, 255);\">Does it work for weight loss?</strong></div><ul><li><div><span style=\"background-color: rgb(215, 243, 255);\">Simple answer: Sometimes in some people, but only if paired with lifestyle changes</span>.</div></li><li><div>Source:</div><ul><li><div><a href=\"https://onlinelibrary.wiley.com/doi/full/10.1111/obr.12747\">Effect of acupuncture and intervention types on weight loss: a systematic review and meta‐analysis</a></div></li><li><div>Obesity Reviews Volume 19, Issue 11, November 2018</div></li><li><div>27 trials involving 32 intervention arms and 2,219 patients</div></li><li><div>Conclusion:&nbsp;<em><strong>\"Acupuncture plus lifestyle modification (LM) was more effective than LM alone and sham acupuncture plus LM, whereas acupuncture alone was not more effective than sham acupuncture alone and no treatment.</strong></em>&nbsp;<em>Finally, acupuncture treatment was effective only in subjects with overweight (25&nbsp;≤&nbsp;body mass index&nbsp;&lt;&nbsp;30), not in subjects with obesity (body mass index ≥30). Our study suggests that the effect of acupuncture on weight loss may be maximized when auricular and manual acupuncture or pharmacopuncture treatment is combined with LM in patients with overweight.\"</em></div></li></ul></li></ul></li></ul><div><br></div><ul><li><div><strong style=\"background-color: rgb(215, 243, 255);\">Does it work for depression / PTSD?</strong></div></li><ul><li><div><span style=\"background-color: rgb(215, 243, 255);\">Simple answer: No</span>, but we need more evidence.</div></li><li><div>Source:</div></li><ul><li><div><a href=\"https://www.tandfonline.com/doi/abs/10.1080/15299732.2017.1289493\">Acupuncture for the Treatment of Adults with Posttraumatic Stress Disorder: A Systematic Review and Meta-Analysis</a></div></li><li><div>Journal of Trauma and Dissociation Volume 19, Issue 1, 2018</div></li><li><div>Seven RCTs with 709 participants met inclusion criteria</div></li><li><div>Conclusion: \"<strong>We identified very low quality of evidence (QoE) indicating significant differences favoring acupuncture (versus any comparator) at post-intervention on PTSD symptoms, and low QoE at longer follow-up on PTSD and depressive symptoms. No significant differences were observed between acupuncture and comparators at post-intervention for depressive symptoms, anxiety symptoms, and sleep quality.</strong>&nbsp;To increase confidence in findings, sufficiently powered replication trials are needed that measure all relevant clinical outcomes and dedicate study resources to minimizing participant attrition.\"</div></li></ul></ul></ul><div><br></div><div><br></div><div>I went looking for meta studies in reputable medical journals, in which researchers compiled and evaluated the results of credible studies on various applications of acupuncture. I just ran down the list in the search results, didn't cherry pick them. The results suggest that acupuncture is not totally bullshit, but also is not a panacea either:<br></div><div><div>From a large meta study reported in the&nbsp;<a href=\"https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/1357513\">Journal of the A</a><a href=\"https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/1357513\">merican Medical Association</a>&nbsp;it may be somewhat useful for <span style=\"background-color: rgb(215, 243, 255);\">chronic pain</span>.</div><div><strong>Conclusions</strong>&nbsp;Acupuncture is effective for the treatment of chronic pain and is therefore a reasonable referral option. <span style=\"background-color: rgb(215, 243, 255);\">Significant differences between true and sham acupuncture indicate that acupuncture is more than a placebo</span>. However, these differences are relatively modest, suggesting that factors in addition to the specific effects of needling are important contributors to the therapeutic effects of acupuncture.</div><div>From the&nbsp;<a href=\"https://journals.sagepub.com/doi/abs/10.1177/014107689608900602\">Journal of the Royal Society of Medicine</a>,<span style=\"background-color: rgb(215, 243, 255);\"> it may work for nausea in some instances</span>:</div><div>Except when administered under anaesthesia, P6 acupuncture point stimulation seems to be an effective antiemetic technique. Researchers are faced with a choice between deciding that acupuncture does have specific effects, and changing from ‘Does acupuncture work?’ to a set of more practical questions; or deciding that the evidence on P6 antiemesis does not provide sufficient proof, and specifying what would constitute acceptable evidence.</div><div><br></div><div>From&nbsp;<a href=\"https://academic.oup.com/rheumatology/article/38/2/143/1783586\">Rheumatology</a>, <span style=\"background-color: rgb(215, 243, 255);\">it may not be all that useful for neck pain:</span></div><div>CONCLUSIONS: In conclusion, the hypothesis that acupuncture is efficacious in the treatment of neck pain is not based on the available evidence from sound clinical trials. Further studies are justified.</div><div><br></div><div>But the&nbsp;<a href=\"https://academic.oup.com/rheumatology/article/46/3/384/2256028\">same journal</a>&nbsp;reports it is <span style=\"background-color: rgb(215, 243, 255);\">pretty efficacious for chronic knee pain</span>:</div><div><strong>Conclusions.</strong>&nbsp;Acupuncture that meets criteria for adequate treatment is significantly superior to sham acupuncture and to no additional intervention in improving pain and function in patients with chronic knee pain. Due to the heterogeneity in the results, however, further research is required to confirm these findings and provide more information on long-term effects.</div><div><br></div><div><a href=\"https://academic.oup.com/rheumatology/article/43/9/1085/2899120\">Rheumatology</a>&nbsp;also reports that<span style=\"background-color: rgb(215, 243, 255);\"> it seems to be useful for tennis elbow:</span></div><div><em>Conclusions</em>. There is strong evidence suggesting that acupuncture is effective in the short-term relief of lateral epicondyle pain.</div><div><br></div><div><strong>Arthritis &amp; Rheumatology</strong>&nbsp;reports that it may be good for knee pain from arthritis, but it's less likely to treat the actual ailment, unfortunately I can't provide a link that doesn't route through my university's library, but here's the title in case you want to try Sci-Hub.&nbsp;<strong>Acupuncture for Osteoarthritis of the Knee A Systematic Review</strong></div><div>Results: Seven trials representing 393 patients with knee OA were identified. For pain and function, there was limited evidence that acupuncture is more effective than being on a waiting list for treatment or having treatment as usual. For pain, there was strong evidence that real acupuncture is more effective than sham acupuncture; however, for function, there was inconclusive evidence that real acupuncture is more effective than sham acupuncture. There was insufficient evidence to determine whether the efficacy of acupuncture is similar to that of other treatments.</div><div><br></div><div>The&nbsp;<a href=\"https://www.bmj.com/content/338/bmj.a3115.long\">BMJ</a>&nbsp;published a review of 13 trial involving placebos and found a very small a dubious effect for pain in general:</div><div><strong>Conclusions</strong>&nbsp;A small analgesic effect of acupuncture was found, which seems to lack clinical relevance and cannot be clearly distinguished from bias. Whether needling at acupuncture points, or at any site, reduces pain independently of the psychological impact of the treatment ritual is unclear.</div><div><br></div><div><a href=\"https://annals.org/aim/article-abstract/718336/meta-analysis-acupuncture-low-back-pain\">The Annals of Internal Medicine</a>&nbsp;found that:</div><div><strong>Conclusions:</strong></div><div><span style=\"background-color: rgb(215, 243, 255);\">Acupuncture effectively relieves chronic low back pain</span>. No evidence suggests that acupuncture is more effective than other active therapies.</div><div><br></div><div>As for headaches,&nbsp;<a href=\"https://onlinelibrary-wiley-com.offcampus.lib.washington.edu/doi/abs/10.1046/j.1468-2982.1999.1909779.x\">Cephalalgia</a>&nbsp;reports that the results are inconclusive:</div><div><em>Conclusions</em>: Overall, the existing evidence suggests that acupuncture has a role in the treatment of recurrent headaches. However, the quality and amount of evidence is not fully convincing. There is urgent need for well‐planned, large‐scale studies to assess effectiveness and efficiency of acupuncture under real life conditions.</div><div><br></div><div>The&nbsp;<a href=\"https://academic.oup.com/bja/article/101/2/151/260251\">British Journal of Medicine</a>&nbsp;published a review of the literature that found acupuncture seemed to be somewhat effective for treating post operative pain:</div><div>Postoperative pain intensity (visual analogue scale, 0–100 mm) was also significantly decreased in the acupuncture group at 8 and 72 h compared with the control group. The acupuncture treatment group was associated with a lower incidence of opioid-related side-effects such as nausea (relative risk, RR: 0.67; 95% CI: 0.53, 0.86), dizziness (RR: 0.65; 95% CI: 0.52, 0.81), sedation (RR: 0.78; 95% CI: 0.61, 0.99), pruritus (RR: 0.75; 95% CI: 0.59, 0.96), and urinary retention (RR: 0.29; 95% CI: 0.12, 0.74). Perioperative acupuncture may be a useful adjunct for acute postoperative pain management.</div><div><br></div><div><a href=\"https://journals.lww.com/spinejournal/Abstract/2005/04150/Acupuncture_and_Dry_Needling_for_Low_Back_Pain__An.18.aspx\">Spine</a>&nbsp;found limited results to suggest acupuncture is more helpful than sham treatment and no treatment for low back pain in the short term only, but also caution that the research methods weren't all that good in many of the studies they reviewed:</div><div><strong>Conclusions.</strong>&nbsp;The data do not allow firm conclusions regarding the effectiveness of acupuncture for acute low back pain. For chronic low back pain, acupuncture is more effective for pain relief and functional improvement than no treatment or sham treatment immediately after treatment and in the short-term only. Acupuncture is not more effective than other conventional and “alternative” treatments. The data suggest that acupuncture and dry-needling may be useful adjuncts to other therapies for chronic low back pain. Because most of the studies were of lower methodologic quality, there is a clear need for higher quality trials in this area.</div><div><br></div><div>The&nbsp;<a href=\"https://link.springer.com/article/10.1007/s004150170132\">Journal of Neurology</a>&nbsp;found <span style=\"background-color: rgb(215, 243, 255);\">no effect in treating the results of a stroke</span>:</div><div><em>Conclusion</em>&nbsp;Based on the evidence of rigorous randomised controlled trials, there is no compelling evidence to show that acupuncture is effective in stroke rehabilitation. Further, better-designed studies are warranted.</div><div><br></div><div>However,&nbsp;<a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0165032709003115\">The Journal of Affective Disorders</a>&nbsp;found acupuncture was <span style=\"background-color: rgb(215, 243, 255);\">somewhat useful for major depressive disorders (MDD) and significantly useful for post stroke depression (PSD):</span></div><div>The efficacy of acupuncture as monotherapy was comparable to antidepressants alone in improving clinical response and alleviating symptom severity of MDD, but not different from sham acupuncture. No sufficient evidence favored the expectation that acupuncture combined with antidepressants could yield better outcomes than antidepressants alone in treating MDD. Acupuncture was superior to antidepressants and waitlist controls in improving both response and symptom severity of PSD. The incidence of adverse events in acupuncture intervention was significantly lower than antidepressants.</div></div>",
+                "",
+                "Does acupuncture work? For what?",
+                "<div>&nbsp;- evidence it works for chronic pain</div><div>&nbsp;- little vidence it works for weight loss, nausea and some kind of depressive disorders</div><div><font color=\"#afafaf\">&nbsp;- studies show it isn't just placebo effect</font></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E?^jsV{qe^",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::IsItBullshit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/IsItBullshit/comments/8px6ad/isitbullshit_cops_have_a_ticket_quota_to_meet/",
+                "<div><div><div>IsItBullshit: cops have a ticket quota to meet every month</div></div></div>",
+                "No but they do have to justify what they are doing out there. Kinda hard to believe no one was speeding during a cops entire shift on the road.<div><br></div><div>It varies from department to department, a lot of my extended family are police officers and some have quotas and some don't. One guy I know has been a cop for about 5 years and has written a grand total of 3 tickets, nobody is quite sure how he is still employed.<br></div><div><br></div><div><br></div>",
+                "",
+                "Cops have a ticket quota to meet every month?",
+                "There is no fixced quota but incentives -&gt; the amount of ticket revenue determine bonuses",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ow!hx$2@yB",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::IsItBullshit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/IsItBullshit/comments/cjbzwa/isitbullshit_construction_crews_contracted/",
+                "<div><div><div>IsItBullshit: Construction crews contracted by/employed by large cities get paid by the hour/day and take forever to finish projects because they get paid more.</div></div></div>",
+                "Yes <span style=\"background-color: rgb(215, 243, 255);\">they get hourly pay</span>..construction is complex so much saftey hence the length of time plus they tack on a bit extra in case of unexpected issues and a final touch up of any issues after completion. <span style=\"background-color: rgb(215, 243, 255);\">Most have a complete by date or the building company get charged a \"fine\"</span><div><br></div><div><div>I worked in the engineering department of my hometown and I can say no, at least not for this reason. If they aren't finished by the completion date, then they will be charged a penalty for every day they are over. The workers are paid by the hour, but the company is paid by what the contract says they will be paid. That includes material, labour, and their profit.<br>Now, there might be adjustments based on changes that need to be made during construction, or additions based on problems that come up, and this is how stuff will eventually take longer and be more expensive than planned. And the more downtown an area is, the weirder stuff you are going to find once you start digging (for instance, on a project I worked on there were trolley tracks that were just built over. Removing them is a pain, but so is going around them). Plus, stuff you thought was buried somewhere isn't there, or is in a different spot. Records, especially for big cities, are messy and may not be close to what exists now. In the past, we didn't have these problems because it was all new installations, which you can do pretty quickly. But now there's a lot of dealing with existing infrastructure, which can make costs and time a lot harder to predict. The bigger the city, the more WTF stuff you are going to uncover as you dig.</div><div>TL;DR No, they don't intentionally go slow to get more money. What the contract says is what they get, and they will be penalized if they don't finish. Roadwork is just really hard to do quickly, and the larger the city the harder it gets.</div></div>",
+                "",
+                "Construction crews get paid by the hour/day and take forever to finish projects because they get paid more?",
+                "They get hourly pay but they usually try to finish on time because there area fines if they don't",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uq$LU`~<*Z",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::IsItBullshit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/OutOfTheLoop/comments/fv5cth/what_is_up_with_everyone_afraid_of_5g/",
+                "What is up with everyone afraid of 5g?",
+                "<div><div>Answer: It's a combination of lack of understanding and conspiracy theorists. Usually both. Some people think 5g causes cancer, which isn't true. Only ionizing radiation causes cancer, and 5g is not ionizing radiation. It doesn't even penetrate human skin beyond a few millimeters. (Note: non ionizing radiation such as microwaves can cause burns at high enough intensity but that's different, and not an issue unless you're fornicating with a 5G router.)</div><div>There's also people that think Huawei, a Chinese company that is manufacturing 5g modems is going to steal our data and send it to the Chinese government. The U.S and other countries are considering banning their products entirely, the U.S is planning on enacting a ban on may 15th, so it's unlikely they will be an issue.</div><div>I think that's the gist of the concerns that sounds somewhat reasonable. The rest I've seen are pretty out there conspiracy theories.</div></div><div><br></div><div><br></div><div><br></div><div><div><strong>There's a really wacky theory that coronavirus is a hoax and that people are really getting sick from 5G on purpose by the government.</strong>&nbsp;They think that 5G can cause pneumonia and respiratory illness and that the government is setting this up to be able to assassinate anyone they want. It's all a \"plot\", and one of the crazier ideas I've heard that the vaccine they'll inject you with is actually something that gets activated by 5G allowing them to kill you.</div><div>Antivax batshit craziness top to bottom. People can be fucking STUPID.</div></div><div><br></div><div><br></div><div><br><span style=\"color: rgb(26, 26, 27);\">Answer: A Chinese company Huawei makes 5G stuff. There's alreeady a lot of pushback from them selling it or buidling it in other countries since people think that it let's the Chinese government spy on people and other people saying that's not true. This sort of controversy makes it hard to trust any source an allows for a lot of weird misinformation to arise and is where conspiracy theories generally come from.</span><br></div><div><span style=\"color: rgb(26, 26, 27);\"><br></span></div><div><span style=\"color: rgb(26, 26, 27);\"><br></span></div><div><span style=\"color: rgb(26, 26, 27);\"><br></span></div><div><span style=\"color: rgb(26, 26, 27);\">Answer: All the fears about 5G and other wireless technology can be traced back to one guy, <span style=\"background-color: rgb(215, 243, 255);\">physicist Bill P. Curry</span> who in 2000 made a graph purported to show that tissue damage increases with the rising frequency of radio waves. But it failed to account for the shielding effect of human skin. Never the less, tons of people picked it up and spread the information without verifying it and generated a fear about developing technologies like 5G. In 2019 they were saying 5G caused cancer, now that CV-19 is happening they are pointing the finger at 5G again. 5G operates at 300 ghz and the threshold for ionizing radiation that could cause cancer is around 1M ghz. All that to say that CV-19 has at this point, all but been proven to have come from animal origins and has nothing to do with 5G. If 5G or other wireless technology is impacting our health, it could only be by some mechanism we do not yet understand.</span><span style=\"color: rgb(26, 26, 27);\"><br></span></div>",
+                "",
+                "When did fears about 5G started?",
+                "&nbsp;-&nbsp;in <span style=\"background-color: rgb(194, 236, 171);\">2000</span> when physicist <span style=\"background-color: rgb(194, 236, 171);\">Bill P. Curry</span>&nbsp;made a graph to show that tissue damage increases with the rising frequency of radio waves",
+                "What was the error that&nbsp;physicist Bill P. Curry didn't considered about 5G in his study?",
+                "&nbsp;-&nbsp;it failed to account for the shielding effect of human skin",
+                "Why can't 5G be harmful?",
+                "&nbsp;-&nbsp;5G operates at 300 ghz and the threshold for ionizing radiation that could cause cancer is around 1M ghz<div><font color=\"#afafaf\">&nbsp;-&nbsp;Note: non ionizing radiation such as microwaves can cause burns at high enough intensity but that's different, and not an issue unless you're fornicating with a 5G router</font></div>",
+                "What is up with everyone afraid of 5g? (in early 2020)",
+                "&nbsp;- 5G is making people die (cause pneumonia, etc.) not coronavirus<div>&nbsp;- Huawei is manufacturing 5g modems and using them to steal our data and send it to the Chinese government</div><div>&nbsp;- 5G causes cancer</div><div><font color=\"#afafaf\">&nbsp;- etc.</font></div>",
+                "What is the <span style=\"background-color: rgb(194, 236, 171);\">threshold</span> for ionizing radiations that cause cancer?",
+                "&nbsp;- 1M ghz",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kIc=.]P5xp",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::OutOfTheLoop"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fv8tfw/eli5_how_are_animals_born_with_instincts_that_is/",
+                "ELI5: How are animals born with “instincts”? That is, how is it possible that newborn animals are born with the knowledge to do things like go to the water (sea turtles) or swim to a certain location to mate/eat (orcas)?",
+                "<div>Evolution works because <span style=\"background-color: rgb(180, 232, 255);\">only the variations that work get a chance to reproduce</span> and pass on their genes while the variations that are detrimental tend to die.</div><div><br></div><div>Baby sea turtles make a great snack for a lot of animals. Hatching sea turtles can go in any direction they want really. But the safest direction for them to go is the water.</div><div><br></div><div>Imagine thousands or hundreds of <span style=\"background-color: rgb(180, 232, 255);\">thousands of generations of sea turtle babies hatching</span> year after year. Which ones have the <span style=\"background-color: rgb(180, 232, 255);\">best chance of survival</span>? <span style=\"background-color: rgb(180, 232, 255);\">The ones attracted to the sea</span>. They are the ones <span style=\"background-color: rgb(180, 232, 255);\">most likely to pass on the genes that gave them a preference for the sea.</span></div><div><br></div><div>The sea turtle babies that preferred to warm up in the sun a little likely all get eaten and don't pass on their genes.</div><div><br></div><div>A selective pressure like that will change animals over successive generations until the urge to make a run for the sea is very strong in all sea turtles. After all, the ones missing that urge never reproduced.</div><div><br></div><div>And not everything is simple instinct. Whales like orca's, often reproduce in very specific places because of their requirements. The reproduction of most animals is closely tied to the availability of food because reproducing is very resource-intensive for the parent and the young also need food.</div><div><br></div><div>So, in the case of whales, they're not instinctively driven to certain areas. They're instinctively driven to reproduce when they get the chance to glut on food. For orca's, that's when other whales, seals, penguins, fish etc. start to reproduce. Which in turn is often when the food for those animals start to reproduce.</div><div><br></div><div>Orcas tend to be very habitual. Different pods specialise in hunting different food sources. A pod can be traditional whale hunters, seal hunters or fish eaters despite all orca's being the same species. As such, they all share the instinct to reproduce when food is plentiful but where that is varies and is learned behaviour that young orcas pick up from their parents.</div>",
+                "",
+                "How are animals born with “instincts”?",
+                "&nbsp;- istints are genetically determined",
+                "What does it mean that animal instincts are genetically determined?",
+                "&nbsp;- it means that the animals withouth these instincts failed to reproduce and probably to survive",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K=W`:]X<Yn",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fvt0xt/eli5_how_can_we_hear_our_thoughts_without/",
+                "ELI5: How can we hear our thoughts without actually hearing them?",
+                "<div>Because our inner voice still stimulates our larynx and the regions of your brain as if we said it out loud. The inner voice sends small but detectable nerve signals to our larynx muscles as if we were speaking. We do'nt generate sound because air doesn't flow past the vocal cords. An area of the brain called Broca's area is activated when speaking out loud and during inner voice. Damage to that brain area also interrupts regular and inner speech.</div><div><b>Source</b>:&nbsp;<a href=\"https://www.theguardian.com/science/blog/2014/aug/21/science-little-voice-head-hearing-voices-inner-speech\">https://www.theguardian.com/science/blog/2014/aug/21/science-little-voice-head-hearing-voices-inner-speech</a></div>",
+                "",
+                "How can we hear our thoughts without actually hearing them?",
+                "&nbsp;- our inner voice stimulates&nbsp;<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>&nbsp;- our larynx&nbsp;</div><div>&nbsp;- the same regions of the brain that usually activate when we hear something</div></blockquote>",
+                "What does it happens when you thoughts activate you larynx?",
+                "&nbsp;- it doesn't generate sound because air doesn't flow past the vocal cords but it activates the larynx muscles",
+                "What does it happens to inner voice when Broca's area is damaged?",
+                "&nbsp;- interrupts both regular and inner speech",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Aa(joe(*;t",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fw1yi7/eli5_how_do_trees_decide_when_and_where_their/",
+                "<div><div>ELI5: How do trees decide when and where their branches grow?</div></div>",
+                "The full answer is pretty complicated, but the short version is that <span style=\"background-color: rgb(215, 243, 255);\">plants have hormones just like animals</span>. They have growth hormones and the <span style=\"background-color: rgb(215, 243, 255);\">ability to sense light and the direction of gravity</span>. <span style=\"background-color: rgb(215, 243, 255);\">Most plants try to grow towards light and against gravity</span>. <span style=\"background-color: rgb(215, 243, 255);\">Many plants also grow more in the summer because they sense that the days are longer</span>. There have been experiments done with plants kept in similar environments but with different durations of light, and it was found that you can cause certain plants to bloom depending on how long the lights are on.<div><br></div><div><br></div><div><br></div><div><div>There's also the peculiar case of&nbsp;<a href=\"https://allyouneedisbiology.wordpress.com/2018/12/09/crown-shyness-trees/\" style=\"\">Crown Shyness</a>&nbsp;where the canopy of trees will not touch. It creates really beautiful patterns when you look up.</div><div>Secondly, some people use knowledge of tree growth to shape the trees.&nbsp;<a href=\"https://mymodernmet.com/gavin-munro-full-grown-tree-furniture/\">Tree Furniture</a>&nbsp;is another fascinating way to modify growth.</div></div><div><br></div><div><br></div><div><br></div><div>To complete and go more in depth on what was already answered, <span style=\"background-color: rgb(215, 243, 255);\">it is a mix of influences from genetics and environmental conditions</span> (as for everything in biology actually). A <span style=\"background-color: rgb(215, 243, 255);\">stem or a branch usually end with a bud (called apical bud) which contain a special group of cells called a meristem</span>. Meristems are <span style=\"background-color: rgb(215, 243, 255);\">where cell multiplication happens</span> in a plant and so are <span style=\"background-color: rgb(215, 243, 255);\">what allow a plant to grow</span>. During the growth season, this apical meristem will produce new cells at the base of the bud and those cells will then elongate, which will make the branch grow longer. As others said, <span style=\"background-color: rgb(215, 243, 255);\">this process is controlled by hormones</span> (the principal one being called the auxin), and <span style=\"background-color: rgb(215, 243, 255);\">those hormones are strongly sensitive to the environmental conditions</span>. For example, <span style=\"background-color: rgb(215, 243, 255);\">light destroy the auxin, which will make the shadowed side of a stem grow more than the other side and the stem will \"go\" toward the light source</span>. Every now and then during this period, the meristem will produce a leaf and on the top of the junction between the leaf and the branch, a little piece of meristem will separate to create a new bud (called axillary bud). This bud will stay dormant until the next growing season (where there is different seasons) and then it will start to be active the same way as the apical bud (it actually is an apical bud at this point) and develop into a new branch. The rhythm and the places the leaves and the axillary buds will be produce is mainly controlled by genetics. So to summarize, environmental conditions like light (but also wind, gravity, animal grazing,...) control the shape of the branches and where they go, and genetics controls when and where a new branch is produced.<br></div>",
+                "",
+                "How do trees decide when and where their branches grow?",
+                "&nbsp;- environmental conditions like light (but also wind, gravity, animal grazing,...) control the shape of the branches and where they go (through hormones)<div>&nbsp;- genetics controls when and where a new branch is produced</div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oaBBs:lV*<",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fwigq6/eli5_why_do_your_eyes_play_tricks_on_you_at_night/",
+                "ELI5: Why do your eyes “play tricks on you at night” like seeing shapes that aren’t there?",
+                "Those are not your eyes, but <span style=\"background-color: rgb(215, 243, 255);\">your brains playing tricks</span>. <span style=\"background-color: rgb(215, 243, 255);\">To see, we create an image in our head based on the pictures we stored</span>. <span style=\"background-color: rgb(215, 243, 255);\">We fill in the gaps with our mind</span>. So <span style=\"background-color: rgb(215, 243, 255);\">at night you fill in a lot</span>. This is also a reason why we see a face or person in other objects, like burned toast.<div><br></div><div><br></div><div><br></div><div><div>A big part of it is the survival benefit of false positive vs false negative detection of a predator. <span style=\"background-color: rgb(215, 243, 255);\">In the dark your brain is working to see something. It will take any stimulus that looks fishy and alert you to seeing “something”</span>. It is usually a false positive I.e nothing there just a trick of the eye. <span style=\"background-color: rgb(215, 243, 255);\">Occasionally (often enough to be a evolutionary driver) that slight stimulus is a predator about to pounce, in which your reaction could save your life.</span></div><div>If your brain ignores all of these tricks there is a danger a predator would be missed and you get eaten.</div></div>",
+                "",
+                "Why do your eyes “play tricks on you at night” like seeing shapes that aren’t there?",
+                "&nbsp;- you brain create images in your head based on informations your eyes gathered, and fill the gaps with your mind<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>&nbsp;-&gt; in the night it fills more</div></blockquote>",
+                "What is the evolutional advantage of&nbsp;“eyes play tricks on you at night”?",
+                "&nbsp;- evolution lead humans to search for patterns in order to stay alive<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>&nbsp;- it's better for your brain to have a false positive (harmless thing that looks dangerous) than a false negative (to ignore a dangerous thing)</div></blockquote>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G_FFXd5&QQ",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/explainlikeimfive/comments/fwrl82/eli5_when_a_pen_quits_half_way_through_the_word/",
+                "ELI5 When a pen quits half way through the word, why will it write on a fresh piece of paper but not over the words it failed to write in the first place?",
+                "Because you already pressed down this part of the paper... it has less friction to turn the ball of your pen. So no ink can be transferred.<div><br></div><div><br></div><div><br></div><div>Pro tip: lick your finger and wet the tip of the pen then draw a little circle on you jeans to get the ball moving again, then it will likely work better in the old spot.<br></div><div><br></div><div><br></div><div><br></div><div>To add to this, a ballpoint pen often stops working when there's a bit of grease or oil on the paper, or if you try to write on your skin. The oil gets into the ball head and it doesn't roll, it slides. If it's not rolling, it's not going to produce ink.<br></div>",
+                "",
+                "When a <span style=\"background-color: rgb(194, 236, 171);\">pen</span> quits half way through the word, why will <span style=\"background-color: rgb(194, 236, 171);\">it write on a fresh piece of paper but not over the words it failed</span> to write in the first place?",
+                "&nbsp;- because the pressed down part of the paper become smooth and hasn't enough friction to turn the ball of your pen",
+                "What is a fast way to make the pen work again after it stops writing?",
+                "&nbsp;-&nbsp;lick your finger and <span style=\"background-color: rgb(194, 236, 171);\">wet the tip</span> of the pen then <span style=\"background-color: rgb(194, 236, 171);\">draw a little circle on you jeans</span> (or another surface with great friction) to get the ball moving again",
+                "Why does a pen often stops working when you try to write on the skin?",
+                "&nbsp;- because if there is a bit of grease on the skin, the ball head doesn't roll anymore but starts to slide",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uC/rub&jGR",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::ExplainLikeImFive"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/TooAfraidToAsk/comments/fz2te3/why_dont_america_get_more_abuse_for_dropping_2/",
+                "<div><div><div>Why don't America get more abuse for dropping 2 atomic bombs?</div></div></div>",
+                "<div>The 2 bombings <span style=\"background-color: rgb(185, 234, 255);\">shortened the war by a year and a half</span>. The military had estimated <span style=\"background-color: rgb(185, 234, 255);\">the war would not have ended until late 1946</span>.<br></div><div><br></div><div>While it gets little attention, the US sub campaign had nearly completely stopped food from getting into Japan. <span style=\"background-color: rgb(185, 234, 255);\">Parts of Japan was already losing people to famine</span>. Had the war gone on until the end of 1946, it's been estimated <span style=\"background-color: rgb(185, 234, 255);\">one million additional Japanese would have died from famine.</span></div><div><br></div><div>The <span style=\"background-color: rgb(185, 234, 255);\">estimated death toll in allied casualties for an invasion was huge</span>. The military minted so many purple hearts in anticipation of the invasion that it didn't have to have more printed until around the time of the Iraq war.</div><div><br></div><div>The <span style=\"background-color: rgb(185, 234, 255);\">Japanese had used about 2800 kamikaze attacks by the end of the war. They had 5000 planes in reserve to fight an invasion</span>. Additionally, they had trained kamikaze scuba divers. They would have been outfitted with an explosive Lance. When a landing craft passed over them they would strike the craft with the lance killing themselves and destroying the boat. <span style=\"background-color: rgb(185, 234, 255);\">There were also orders that if an invasion started, all POWs were to be killed to free up all resources to fight the invaders.</span></div><div><br></div><div>A lot of the <span style=\"background-color: rgb(185, 234, 255);\">atomic bomb critics will ignorantly say there was no need to drop the second bomb because Japan was about to surrender</span>. Here's something most people don't know. <span style=\"background-color: rgb(185, 234, 255);\">After the first bomb there was an attempted coup against the emperor by the heads of the army because they were afraid he might allow a surrender</span>. It was <span style=\"background-color: rgb(185, 234, 255);\">only the second bombing that convinced their military leaders to give up the fight</span>. Before the second bomb was dropped, the Japanese did reach out to the USSR to be a broker in peace negotiations. The Soviets never communicated the overture to the allies. <span style=\"background-color: rgb(185, 234, 255);\">The Soviets had no intention of working as a broker for peace because they were looking to start a war against Japan in the summer of 1945</span>, just a few months after the German surrender. <span style=\"background-color: rgb(185, 234, 255);\">The Soviets were looking for pay back after the Japanese beat them in Russo-Japanese war from about 30 years earlier.</span></div><div><br></div><div>The Soviets had plans to invade the northern island of Hokkaido and the Kuril islands. <span style=\"background-color: rgb(185, 234, 255);\">Had the war not ended when it did the cold war would have also included a divided Japan in addition to a divided Germany and Korea.</span></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O=fWX2xh{r",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::TooAfraidToAsk"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "https://www.reddit.com/r/science/comments/g5ap67/no_the_coronavirus_wasnt_made_in_a_lab_a_genetic/",
+                "<div><div><div>No, the coronavirus wasn’t made in a lab. A genetic analysis shows it’s from nature</div></div></div>",
+                "<div>The coronavirus pandemic circling the globe is <span style=\"background-color: rgb(185, 234, 255);\">caused by a natural virus</span>, not one made in a lab, a new study says.</div><div><br></div><div>The virus’s genetic makeup reveals that SARS-CoV-2 isn’t a mishmash of known viruses, as might be expected if it were human-made. And it has unusual features that have only recently been identified in scaly anteaters called pangolins, evidence that the virus came from nature, Kristian Andersen and his colleagues report March 17 <span style=\"background-color: rgb(185, 234, 255);\">in&nbsp;<em style=\"\">Nature Medicine</em></span>.</div><div><br></div><div>When Andersen, an infectious disease researcher at the Scripps Research Institute in La Jolla, Calif., first heard about the coronavirus causing an outbreak in China, he wondered where the virus came from. <span style=\"background-color: rgb(185, 234, 255);\">Initially, researchers thought the virus was being spread by repeated infections jumping from animals in a seafood market in Wuhan, China, into humans and then being passed person to person</span>. <span style=\"background-color: rgb(185, 234, 255);\">Analysis from other researchers has since suggested that the virus probably&nbsp;<a href=\"https://www.sciencenews.org/article/coronavirus-questions-covid19-symptoms-deaths-spread\" style=\"\">jumped only once from an animal into a person</a>&nbsp;and has been spread human to human</span> since about mid-November (<em>SN: 3/4/20</em>).</div><div><br></div><div>But shortly after the virus’s genetic makeup was revealed in early January, <span style=\"background-color: rgb(185, 234, 255);\">rumors began bubbling up that maybe the virus was engineered in a lab and either intentionally or accidentally released.</span></div><div><div></div></div><div><br></div><div>An <span style=\"background-color: rgb(185, 234, 255);\">unfortunate coincidence fueled conspiracy theorists</span>, says Robert Garry, a virologist at Tulane University in New Orleans. <span style=\"background-color: rgb(185, 234, 255);\">The Wuhan Institute of Virology is “in very close proximity to” the seafood market</span>, <span style=\"background-color: rgb(185, 234, 255);\">and has conducted research on viruses, including coronaviruses, found in bats that have potential to cause disease in people</span>. “That led people to think that, oh, it escaped and went down the sewers, or somebody walked out of their lab and went over to the market or something,” Garry says.</div><div><br></div><div>Accidental releases of viruses, including SARS, have happened from other labs in the past. So “this is not something you can just dismiss out of hand,” Andersen says. “That would be foolish.”</div><div><br></div><b>Looking for clues</b><div>Andersen assembled a team of evolutionary biologists and virologists, including Garry, from several countries to analyze the virus for clues that it could have been human-made, or grown in and accidentally released from a lab.</div><div><br></div><div>“We said, ‘Let’s take this theory — of which there are multiple different versions — that the virus has a non-natural origin … as a serious potential hypothesis,’ ” Andersen says.</div><div><br></div><div>Meeting via Slack and other virtual portals, the researchers analyzed the virus’s genetic makeup, or RNA sequence, for clues about its origin.</div><div><br></div><div>It was clear “almost overnight” that the virus wasn’t human-made, Andersen says. <span style=\"background-color: rgb(185, 234, 255);\">Anyone hoping to create a virus would need to work with already known viruses and engineer them to have desired properties.</span></div><div><br></div><div>But <span style=\"background-color: rgb(185, 234, 255);\">the SARS-CoV-2 virus has components that differ from those of previously known viruses, so they had to come from an unknown virus or viruses in nature</span>. “Genetic data irrefutably show that&nbsp;<a href=\"https://www.nature.com/articles/s41591-020-0820-9\">SARS-CoV-2 is not derived</a>&nbsp;from any previously used virus backbone,” Andersen and colleagues write in the study.</div><div><br></div><div>“<span style=\"background-color: rgb(185, 234, 255);\">This is not a virus somebody would have conceived of and cobbled together. It has too many distinct features, some of which are counterintuitive,” Garry says. “You wouldn’t do this if you were trying to make a more deadly virus</span>.”</div><div><br>That finding debunks a widely disputed analysis, posted at bioRxiv.org before peer review, that claimed to find bits of HIV in the coronavirus, Hodcroft says. Other scientists quickly pointed out flaws in the study and the authors retracted the report, but not before it fueled the notion that the virus was engineered.Other scientists agree. “We see absolutely no evidence that the virus has been engineered or purposely released,” says Emma Hodcroft, a molecular epidemiologist at the University of Basel in Switzerland. She was not part of Andersen’s group, but is a member of a team of scientists with&nbsp;<a href=\"https://nextstrain.org/\">Nextstrain.org</a>&nbsp;that is tracking small genetic changes in the coronavirus to learn more about how it is spreading around the world.<br></div><div><br></div><div><span style=\"background-color: rgb(185, 234, 255);\">Some stretches of the virus’s genetic material are similar to HIV, but that’s something that stems from those viruses sharing a common ancestor during evolution</span>, Hodcroft says. “<span style=\"background-color: rgb(185, 234, 255);\">Essentially their claim was the same as me taking a copy of the<em style=\"\">&nbsp;Odyssey</em>&nbsp;and saying, ‘Oh, this has the word&nbsp;<em style=\"\">the</em>&nbsp;in it,’ and then opening another book, seeing the word&nbsp;<em style=\"\">the</em>&nbsp;in it and saying, ‘Oh my gosh, it’s the same word, there must be parts of the&nbsp;<em style=\"\">Odyssey</em>&nbsp;in this other book,”</span> she says. “It was a really misleading claim and really bad science.”</div><div><br></div><b>Finding peculiar features</b><div>Andersen’s group next set out to determine whether the virus could have been accidentally released from a lab. That’s a real possibility because researchers in many places are working with coronaviruses that have potential to infect humans, he says. “Stuff comes out of the lab sometimes, almost always accidentally,” he says.</div><div><br></div><div>A couple of unexpected features of the virus caught the researchers’ eyes, Andersen says. In particular, the gene encoding the coronavirus’s spike protein has 12 extra RNA building blocks, or nucleotides, stuck in it.</div><div><br></div><div>This spike protein protrudes from the virus’ surface and allows the virus to latch onto and enter human cells. That insertion of RNA building blocks adds four amino acids to the spike protein, and creates a site in the protein for an enzyme called furin to cut. Furin is made in human cells, and cleaves proteins only at spots where a particular combination of amino acids is found, like the one created by the insertion. SARS and other SARS-like viruses don’t have those cutting sites.</div><div><br></div><div><br></div><div>Finding the furin cutting site was a surprise: “That was an aha moment and an uh-oh moment,” Garry says. When bird influenza viruses acquire the ability to be cut by furin, the viruses often become more easily transmissible. The insertion also created places where sugar molecules could be fastened to the spike protein, creating a shield to protect the virus from the immune system.</div><div><br></div><div>The COVID-19 virus’ spike protein also&nbsp;<a href=\"https://www.sciencenews.org/article/coronavirus-covid19-repurposed-treatments-drugs\">binds more tightly</a>&nbsp;to a protein on human cells called ACE2 than SARS does (<em>SN: 3/10/20</em>). Tighter binding may allow SARS-CoV-2 to more easily infect cells. Together, those features may account for why COVID-19 is&nbsp;<a href=\"https://www.sciencenews.org/article/coronavirus-most-contagious-before-during-first-week-symptoms\">so contagious</a>&nbsp;(<em>SN: 3/13/20</em>).</div><div><br></div><div>“It’s very peculiar, these two features,” Andersen says. “How do we explain how this came about? &nbsp;I’ve got to be honest. I was skeptical [that it was natural]. This could have happened in tissue culture” in a lab, where viruses may acquire mutations as they replicate many times in lab dishes. In nature, viruses carrying some of those mutations might be weeded out by natural selection but might persist in lab dishes where even feeble viruses don’t have to fight hard for survival.</div><div><br></div><b>Clinching the case for nature</b><div>But then the researchers compared SARS-CoV-2 with other coronaviruses recently found in nature, including in bats and pangolins. “<span style=\"background-color: rgb(185, 234, 255);\">It looks like SARS-CoV-2 could be a mix of bat and pangolin viruses</span>,” Garry says.</div><div><br></div><div>Viruses, especially RNA viruses such as coronaviruses, often swap genes in nature. Finding genes related to the pangolin viruses was especially reassuring because those viruses’ genetic makeup wasn’t known until after SARS-CoV-2’s discovery, making it unlikely anyone was working with them in a lab, he says.</div><img src=\"031920_ts_covid-conspiracies_inline_680.jpg\" class=\"\"><div><div>In particular, pangolins also have the amino acids that cause the tight binding of the spike protein to ACE2, the team found. “So clearly, this is something that can happen in nature,” Andersen says. “I thought that was very important little clue. It shows there’s no mystery about its tighter binding to the human [protein] because pangolins do it, too.”</div><div><br></div><div>The sugar-attachment sites were another clue that the virus is natural, Andersen says. The sugars create a “mucin shield” that protects the virus from an immune system attack. But lab tissue culture dishes don’t have immune systems, making it unlikely that such an adaptation would arise from growing the virus in a lab. “That sort of explained away the tissue-culture hypothesis,” he says.</div><div><br></div><div>Similarity of SARS-CoV-2 to bat and pangolin viruses is some of the best evidence that the virus is natural, Hodcroft says. “This was just another animal spillover into humans,” she says. “It’s really the most simple explanation for what we see.” Researchers still aren’t sure exactly which animal was the source.</div><div><br></div><div>Andersen says the analysis probably won’t lay conspiracy theories to rest. Still, he thinks the analysis was worth doing. “I was myself skeptical at the beginning and I kept flipping back and forth,” Andersen says, but he’s now convinced. “All the data show it’s natural.”</div></div>",
+                "",
+                "Why was coronavirus thought to be artificial?",
+                "&nbsp;- the <span style=\"background-color: rgb(185, 234, 255);\">Wuhan Institute of Virology</span> is “in very <span style=\"background-color: rgb(185, 234, 255);\">close</span> proximity to” the <span style=\"background-color: rgb(185, 234, 255);\">seafood market</span><div>&nbsp;- has <span style=\"background-color: rgb(185, 234, 255);\">conducted research on viruses</span>, including coronaviruses, found in bats that have potential to cause disease in people<div><div>&nbsp;- also there were certain <span style=\"background-color: rgb(185, 234, 255);\">stretches of the virus’s genetic material similar to HIV</span></div></div></div>",
+                "What is the evidence that coronavirus is not artificial?",
+                "&nbsp;-&nbsp;has components that differ from those of previously known viruses, so they had to come from an unknown virus or viruses in nature<br><div>&nbsp;- has too many distinct features, some of which are counterintuitive</div>",
+                "where does coronavirus seem to come from at the moment?",
+                "&nbsp;- from a mix of bat and pangolin viruses",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "https://www.sciencenews.org/article/coronavirus-covid-19-not-human-made-lab-genetic-analysis-nature"
+            ],
+            "flags": 0,
+            "guid": "OII{lf9sJL",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": [
+                "IR::Science"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "You can delete this card",
+                "You can delete this card",
+                "You can delete this card",
+                "",
+                "You can delete this card",
+                "You can delete this card",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "You can delete this card",
+                "<img class=\"\" src=\"_patterncarino3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "yHhs54{Le)",
+            "newlyAdded": false,
+            "note_model_uuid": "0f33ec41-855f-11ea-bf27-7085c26d939d",
+            "tags": []
+        }
+    ]
+}
